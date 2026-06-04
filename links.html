@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Amine Jlassi | Links</title>
+    <style>
+        /* Base Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f5; /* Light gray background */
+            color: #18181b;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Main Container */
+        .container {
+            width: 100%;
+            max-width: 450px; /* Keeps it looking like a mobile app on desktop */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Profile Section */
+        .profile {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .profile-img {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .profile h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .profile p {
+            font-size: 0.9rem;
+            color: #52525b;
+            line-height: 1.5;
+        }
+
+        /* Links Section */
+        .links {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-btn {
+            display: block;
+            width: 100%;
+            padding: 16px 20px;
+            background-color: #ffffff;
+            color: #18181b;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 12px;
+            border: 1px solid #e4e4e7;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+        }
+
+        .link-btn:hover {
+            background-color: #18181b;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 48px;
+            font-size: 0.8rem;
+            color: #a1a1aa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Header -->
+        <header class="profile">
+            <!-- Replace src with your actual image URL or local path -->
+            <img src="faltalogo.png" alt="Profile Picture" class="profile-img">
+            <h1>Falta فلته</h1>
+        </header>
+
+        <!-- Link Buttons -->
+        <main class="links">
+            <a href="https://jlaa04.github.io/Falta.github.io/" target="_blank" rel="noopener noreferrer" class="link-btn">
+                Website
+            </a>
+            
+            <a href="https://www.youtube.com/@Falta-EPT" target="_blank" rel="noopener noreferrer" class="link-btn">
+                YouTube
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=61560973244768" target="_blank" rel="noopener noreferrer" class="link-btn">
+                Facebook
+            </a>
+            
+        </main>
+
+        <footer class="footer">
+            © 2026 Falta Injez
+        </footer>
+    </div>
+
+</body>
+</html>
